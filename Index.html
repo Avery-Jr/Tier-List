@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+    <head>
+     <link rel="stylesheet" href="style.css" />
+     <title>Food Tier List</title>
+    </head>
+<body>
+<h1>Food Tier List</h1>
+<hr />
+<div>
+  <!--These are the different tiers someone can rank their items in.-->
+
+  <!--These are the different sections where they can place their items on the level of the tier they want it at.-->
+
+  <div class="tierRow">
+    <div id="t1" class="tiers">S</div>
+    <div class="tier-sections"></div>
+  </div>
+  <div class="tierRow">
+    <div id="t2" class="tiers">A</div>
+    <div class="tier-sections"></div>
+  </div>
+  <div class="tierRow">
+    <div id="t3" class="tiers">B</div>
+    <div class="tier-sections"></div>
+  </div>
+  <div class="tierRow">
+    <div id="t4" class="tiers">C</div>
+    <div class="tier-sections"></div>
+  </div>
+  <div class="tierRow">
+    <div id="t5" class="tiers">D</div>
+    <div class="tier-sections"></div>
+  </div>
+  <div class="tierRow">
+    <div id="t6" class="tiers">E</div>
+    <div class="tier-sections"></div>
+  </div>
+</div>
+<!--The reset button.-->
+<button id="resetBtn" type="reset" value="Reset" onclick="resetContent()">
+  Reset
+</button>
+<!--These are the different items they will be ranking.-->
+<div id="selections">
+  <div class="card" id="item0" draggable="true">
+    1
+    <img
+      src="https://thesavvymama.com/wp-content/uploads/2024/03/Philly-Cheesesteak-Recipe.jpg"
+    />
+  </div>
+  <div class="card" id="item1" draggable="true">
+    2
+    <img
+      src="https://glendalepizzanj.com/cmsb/uploads/glendale-pizzeria-spicy-brooklyn-pizza.jpg"
+    />
+  </div>
+  <div class="card" id="item2" draggable="true">
+    3
+    <img
+      src="https://www.splenda.com/wp-content/uploads/2020/12/fluffy-belgian-waffles-2000x1000.jpg"
+    />
+  </div>
+  <div class="card" id="item3" draggable="true">
+    4
+    <img
+      src="https://www.allrecipes.com/thmb/5Of6cQhIFO4jMKF9i8ZjUJTc_dc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/178809-southern-style-buttermilk-fried-chicken-DDMFS-4x3-e9262a2595dc4e238e19e2fb944dac2f.jpg"
+    />
+  </div>
+  <div class="card" id="item4" draggable="true">
+    5
+    <img
+      src="https://hips.hearstapps.com/hmg-prod/images/mac-and-cheese-index-64d25bdf03b98.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*"
+    />
+  </div>
+  <div class="card" id="item5" draggable="true">
+    6
+    <img
+      src="https://www.momontimeout.com/wp-content/uploads/2021/06/fruit-salad-square.jpeg"
+    />
+  </div>
+  <div class="card" id="item6" draggable="true">
+    7
+    <img
+      src="https://en.wikipedia.org/wiki/Hard-shell_taco"
+    />
+  </div>
+</div>
+
+<script src="script.js" ></script>
+</body>
+</html>
