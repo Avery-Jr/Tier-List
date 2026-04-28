@@ -1,0 +1,118 @@
+/*Background of the page*/
+body {
+  background: #2b2d34;
+  text-align: center;
+  color: #e7e7e7;
+}
+/*Header styles*/
+h1 {
+  font-size: 65px;
+  text-shadow: 2px 2px 4px #000000;
+  font-style: oblique;
+}
+/*The divider between the header and the rest of the content*/
+hr {
+  border-color: gold;
+  border-style: groove;
+  border-width: 4px;
+}
+/*How any button on the page looks, really only the reset button though*/
+button {
+  background-color: black;
+  color: white;
+  border-color: white;
+  margin: 10px 3px 10px 3px;
+  padding: 16px 40px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+/*when the user hovers over a button*/
+button:hover {
+  background-color: #4a4c47;
+  font-size: 18px;
+  padding: 13px 33px;
+}
+/*The container that stores a tier and tier section, one of each per container*/
+.tierRow {
+  display: flex;
+}
+
+/*The stlye of the tiers, not the colors of them.*/
+.tiers {
+  width: 10%;
+  line-height: 25px;
+  font-size: 45px;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  color: #001130;
+  height: auto;
+  font-family: "Lucida Console", monospace;
+  line-height: 2.55;
+}
+
+/*The style of the section where you will put your ranked items*/
+.tier-sections {
+  display: flex;
+  width: 90%;
+  border: 3px solid black;
+  border-radius: 1px;
+  height: auto;
+  background-color: #323233;
+}
+
+/*The style container for the items, it should be a black box.*/
+#selections {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  margin: 4px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*The style of how an item is persented, like with the button styles.*/
+.card {
+  background-color: darkgrey;
+  border-radius: 1px;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  padding: 2px 4px;
+}
+
+/*An item when the user hovers over it, like with the button styles.*/
+.card:hover {
+  border: 2px solid yellow;
+  cursor: move;
+}
+
+/*The image showcased as the item*/
+img {
+  width: 150px;
+  height: 150px;
+}
+
+/*The tier colors, 1 being S and 6 being E.*/
+#t1 {
+  background-color: #e95a40;
+}
+#t2 {
+  background-color: #e9973e;
+}
+#t3 {
+  background-color: #e7cf3c;
+}
+#t4 {
+  background-color: #90e151;
+}
+#t5 {
+  background-color: #54e0c4;
+}
+#t6 {
+  background-color: #3a8beb;
+}
