@@ -37,9 +37,9 @@ button:hover {
   display: flex;
 }
 
-/*The stlye of the tiers, not the colors of them.*/
+/*The stlye of the tiers, not the colors of them. width originaly 10% */
 .tiers {
-  width: 10%;
+  width: 125px;
   line-height: 25px;
   font-size: 45px;
   border: 1.5px solid black;
